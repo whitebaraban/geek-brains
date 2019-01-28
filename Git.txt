@@ -9,3 +9,7 @@ double click -> checkout branch
 Объединение веток:
 checkout branch, в которую нужно подтянуть инфу.
 merge - по ветке, которую нужно подтянуть в выбранную ветку
+
+Копирование в мастер одного коммита:
+checkout master branch
+right mouse button - Cherry-Pick 
