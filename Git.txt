@@ -1,0 +1,7 @@
+discard - отмена изменений
+revert - отмена коммита
+reset - откат к выбранному коммиту
+
+Создание новой версии и переключение между ветками:
+Local Branches -> add Branch
+double click -> checkout branch
