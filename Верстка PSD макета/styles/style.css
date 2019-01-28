@@ -8,9 +8,84 @@ body {
     margin: 0 auto;
 }
 
+.catalog-block-menu {
+    padding-top: 71px;
+}
+
+.catalog-menu {
+    list-style-type: none; 
+    border-bottom: 1px solid #6c6c6c;
+    width: 620px;
+    height: 28px;
+    margin-left: 63px;
+    padding-left: 0px;
+}
+
+.catalog-menu a {
+    color:  #6c6c6c;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.catalog-menu li {
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.catalog-menu li:first-child {
+    border-bottom: 2px solid;
+}
+
+.catalog-menu .active {
+    color:  #212121;
+}
+
+.catalog-block-content {
+    padding-top: 50px;
+    padding-left: 98px;
+}
+
+.catalog-product {
+    float: left;
+    width: 370px;
+    height: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.update-button {
+    text-align: center;
+    height: 20px;
+    clear: both;
+    margin-bottom: 140px;
+    padding-top: 40px;
+}
+
 .header {
     height: 800px;
     background: url('../images/slider-img.jpg')
+}
+
+.header-others-page {
+    background: #f5f5f5;
+    height: 360px;
+}
+
+.header-lb {
+    clear: both;
+    display: block;
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+    margin-left: 63px;
+    margin-top: 138px;
 }
 
 .menu {
@@ -25,8 +100,10 @@ body {
 }
 
 .header .menu ul li {
-    float: left;
-    padding: 0 8px;
+    float: left; 
+    display: block;
+    width: 110px;
+    text-align: center;
 }
 
 .header .menu ul a {
@@ -34,16 +111,17 @@ body {
     color:  #8c8c8c;
     font-size: 14px;
     font-weight: 500;
-    line-height: 48px;
+    line-height: 28px;
     letter-spacing: 1px;
+    padding: 0 8px;
 }
 
 .header .menu ul a:hover {
     color:  #212121;
     font-size: 14px;
     font-weight: 700;
-    line-height: 46px;
-    border-bottom: 2px solid black;
+    line-height: 26px;
+    border-bottom: 4px solid black;
 }
 
 .header img[alt="logotype"] {
@@ -53,7 +131,7 @@ body {
 
 .header .menu img {
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .header-text {
@@ -176,7 +254,7 @@ body {
     border-bottom: 4px solid;
 }
 
-.featured-new-menu .active:first-child {
+.featured-new-menu .active {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
