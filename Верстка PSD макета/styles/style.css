@@ -10,6 +10,96 @@ body {
     margin: 0 auto;
 }
 
+.product-info-block {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn-product-detail {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:  #f44336;
+    color:  #ffffff;
+    font-size: 21.99px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    transform: scaleY(1.0005);
+    width: 510px;
+    height: 71px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border-radius: 55px;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 4px;
+}
+
+.btn-product-detail:hover::after{
+    content: url('../images/arrow2.png');
+    position: absolute;
+    left: 350px;
+}
+
+.product-info-block .product-head {
+    color:  #212121;
+    font-size: 35.98px;
+    font-weight: 700;
+    transform: scaleY(1.0005); 
+}
+
+.product-info-block .product-head::after {
+    content: "HOT DEAL";
+    display: block;
+    color:  #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    transform: scaleY(1.0005);
+}
+
+.product-info-block .product-price {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:  #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    transform: scaleY(1.0005);
+
+}
+
+.product-info-block .product-price::before {
+    content: "\24";
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.product-info-block .product-price::after {
+    content: "/sq  ";
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.product-info-block p {
+    margin-top: 70px;
+    padding-left: 90px;
+    color:  #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    transform: scaleY(1.0005);
+    text-align: left;
+    width: 499px;
+}
+
 .header-product-details {
     height: 220px !important;
     background: #ffffff !important;
@@ -160,7 +250,7 @@ body {
 .catalog-menu {
     list-style-type: none; 
     border-bottom: 1px solid #6c6c6c;
-    width: 620px;
+    width: 550px;
     height: 28px;
     margin-left: 63px;
     padding-left: 0px;
@@ -270,7 +360,7 @@ body {
 }
 
 .header img[alt="logotype"] {
-    margin-top: 98px;
+    margin-top: 78px;
     margin-left: 63px;
 }
 
